@@ -9,7 +9,7 @@ const getPokemon = async (id) => {
         const data = await res.json();
         return data;
     } catch (error) {
-        console.error(`failed to fetch with pokemon ${id}'`);
+        console.error(`failed to fetch with Pokemon With Id : ${id}`);
     }
 };
 
