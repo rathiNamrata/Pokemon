@@ -3,7 +3,7 @@ import getPokemonhandler from "../handlers/getPokemonHandler.js";
 
 const enterEvent = () => {
     dom.input.addEventListener('keyup',(e) => {
-        if (e.key = 'Enter') {
+        if (e.key == 'Enter') {
           getPokemonhandler();
         }
     });
